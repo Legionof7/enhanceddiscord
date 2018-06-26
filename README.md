@@ -1,9 +1,9 @@
-# Enhanced Discord V1.4
+# Enhanced Discord V2.0
 ![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
 Enhanced discord is a Discord theme meant to improve your discord experience
-Version 1.4 support Discord's lastests updates
+Version 2 support Discord's lastests updates
 You can easily change the theme's colors using HEX or RGB
 
 ![Preview1](https://preview.ibb.co/fcQCFT/comparaison1.jpg)
