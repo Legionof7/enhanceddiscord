@@ -18,6 +18,8 @@
 ========================================
 */
 
+@import url('https://cdn.rawgit.com/codedotspectra/enhanceddiscord/bc1438f3/css/enhanceddiscord.theme.css');
+
 /*  COLORS  */
 :root {
   --main-color: #371b4b;
