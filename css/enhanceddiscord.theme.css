@@ -1,21 +1,20 @@
-//META{"name":"Discord Enhanced","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.3.4"}*//{}
+//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.5.1"}*//{}
 /*
-██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗
-██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗    ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗
-██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║    █████╗  ██╔██╗ ██║███████║███████║██╔██╗ ██║██║     █████╗  ██║  ██║
-██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║    ██╔══╝  ██║╚██╗██║██╔══██║██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║
-██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝    ███████╗██║ ╚████║██║  ██║██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝
-╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝     ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝
+███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
+██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
+█████╗  ██╔██╗ ██║███████║███████║██╔██╗ ██║██║     █████╗  ██║  ██║    ██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║
+██╔══╝  ██║╚██╗██║██╔══██║██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║    ██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║
+███████╗██║ ╚████║██║  ██║██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝    ██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝
+╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝     ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝
 ========================================
-#  Discord Enhanced Theme              #
+#  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.3.4                      #
+#  Version: 1.5.1                      #
 ========================================
 */
-
-/*  COLORS  */
 :root {
   --main-color: #1a3cb3;
+  --main-darker: #0d1d59;
   --dark: #16181d;
   --grey: #21252b;
   --light: #282c34;
@@ -23,6 +22,7 @@
 
   /* Default Colors
     --main-color: #1a3cb3;
+    --main-darker: #0d1d59;
     --dark: #16181d;
     --grey: #21252b;
     --light: #282c34;
@@ -30,19 +30,120 @@
   */
 }
 
-a,
-.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
-    color: var(--links) !important;
+/* ## ============= ##
+####    LABELS     ###
+## ============== ##*/
+.theme-dark .membersGroup-v9BXpm {
+    text-align: center;
+    line-height: 7px;
+    padding-bottom: 25px;
+    color: #fff;
+    border-bottom: 1px solid var(--main-color);
+    width: 75%;
+    margin-left: 12.5%;
 }
 
+.nameSelectedText-sp_EUw:before {content: "> ";}
+
+.botTagRegular-2HEhHi {
+    padding: 2px 3px 2px 3px;
+    background: #e68a00;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.usernameOffline-3VSVLk:after {
+    padding: 2px 3px 2px 3px;
+    background: #f04747;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    margin-top:1px;
+    text-transform: uppercase;
+    vertical-align: top;
+    content: "offline";
+}
+.usernameOnline-3jr_0Y:after {
+    padding: 2px 3px 2px 3px;
+    background: #35974c;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: top;
+    content: "online";
+    margin-top:1px;
+}
+.wordmark-2iDDfm:after {
+    padding: 2px 3px 2px 3px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: top;
+    content: "Enhanced";
+}
+
+/* #################################### */
+
+.header-2o-2hj,
+.container-1UB9sr,
+.container-2Thooq,
+.scroller-2v3d_F,
+.guilds-wrapper .guilds {
+    border-right: 1px solid var(--dark);
+    border-left: 1px solid var(--light);
+}
+.theme-dark .headerBar-UHpsPw,
+#friends .friends-table {
+    margin-top: 0;
+    border-left: 1px solid #373c49;
+}
+.private-channels .search-bar,
+.scroller-2FKFPG{
+    border-right: 1px solid var(--dark);
+}
+.ui-standard-sidebar-view .content-column.default,
+.flex-horizontal>.flex-spacer,
+.theme-dark .title-3qD0b- {
+    border-left: 1px solid #373c49;
+}
+.chat .new-messages-bar {
+    background-color: var(--main-color);
+}
+.chat .new-messages-bar:hover {
+    background-color: var(--main-darker);
+}
+a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {color: var(--links) !important;}
 .appMount-3VJmYg,
-.typeWindows-1za-n7 {
-  background: #fff;
-}
-
-.wordmark-2iDDfm path {
- fill: #000;
-}
+.typeWindows-1za-n7 {background: #fff;}
+.wordmark-2iDDfm path {fill: #000;}
 
 .guilds-wrapper,
 .headerTop-3C2Zn0,
@@ -54,6 +155,7 @@ a,
 .contentSelectedVoice-1WDIBM,
 .theme-dark .menu-Sp6bN1,
 .theme-dark .bar-2Qqk5Z,
+.theme-dark .dockItem-2kQDqg:hover,
 .theme-dark .divider-1pnAR2,
 .theme-dark .searchBar-1MOL6S,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
@@ -62,27 +164,24 @@ a,
 .search-bar.search-bar-light .search-bar-inner,
 .themeDefault-24hCdX.sizeDefault-2YlOZr,
 .need-help-modal.deprecated .header,
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover{
   background: var(--dark) !important;
 }
-
 .icon-3o6xvg,
 .theme-dark .inner-zqa7da,
 .guilds-wrapper .guilds .guild-icon {
     background-color: var(--dark) !important;
 }
-
 .guilds-wrapper .guilds-add {
     background: var(--dark);
     border: 2px dashed var(--light);
     color: var(--light);
 }
-
 .create-guild-container.deprecated .action {
     background: transparent;
     border: none;
 }
-
 .theme-dark .ui-standard-sidebar-view .sidebar-region,
 .container-PNkimc,
 .channels-Ie2l6A,
@@ -105,6 +204,7 @@ a,
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
 #bd-settingspane-container .scroller-wrap .scroller,
 .bda-slist li,
+.theme-dark .body-SKIE6r,
 .theme-dark .changeDetails-bk98pu,
 .theme-dark .cardPrimaryOutline-29Ujqw,
 .theme-dark .cardPrimaryEditable-3KtE4g,
@@ -112,7 +212,6 @@ a,
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
   background: var(--grey) !important;
 }
-
 .theme-dark .title-3qD0b-,
 .theme-dark .title-3qD0b-,
 .theme-dark .chat,
@@ -123,12 +222,12 @@ a,
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .friends-table, .theme-dark .messages-wrapper,
 .theme-dark .chat form,
+.theme-dark .headerBar-UHpsPw,
 .need-help-modal.deprecated .form-inner.loading,
 .need-help-modal.deprecated .footer,
 .need-help-modal.deprecated .header input[type=text] {
   background: var(--light) !important;
 }
-
 .content-20Aix8:hover .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header header,
@@ -136,7 +235,18 @@ a,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
     color: #fff !important;
 }
-
+.feed-1o0xmF {
+    background-color:var(--light);
+    border-left: 1px solid #373c49;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: var(--main-color);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected{
+    background-color: #fff;
+    color: var(--main-color);
+}
 .activity-11LB_k,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .side-8zPYf6 .itemSelected-1qLhcL,
@@ -250,4 +360,3 @@ a, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
 ::-webkit-scrollbar-track {background: var(--grey);border: none !important;}
 ::-webkit-scrollbar-track-piece {background: var(--grey) !important;border-radius: 0px !important;border: none !important;}
 ::-webkit-scrollbar-thumb {background: var(--dark) !important;border-radius: 0px !important;border: none !important;}
-::-webkit-scrollbar-thumb:hover {cursor: pointer !important;}
