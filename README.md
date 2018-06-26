@@ -1,5 +1,5 @@
 # Enhanced Discord V1.4
-![ED Logo](https://preview.ibb.co/kde6aT/ed_logo.jpg)
+![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
 Enhanced discord is a Discord theme meant to improve your discord experience
