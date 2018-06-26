@@ -23,10 +23,8 @@ Simply dowload the color variant you like and put it in your Better Discord Them
   * Dark Matter
   ![darkmatter](https://preview.ibb.co/mcmuvT/darkmatter.jpg)
   * Bloody
-  ![bloody](https://preview.ibb.co/mcmuvT/bloody.jpg)
+  ![bloody](https://preview.ibb.co/c8fb9o/bloody.jpg)
   * Marine
-  ![marine](https://preview.ibb.co/mcmuvT/marine.jpg)
+  ![marine](https://preview.ibb.co/jNv9Uo/marine.jpg)
   * Solar
-  ![solar](https://preview.ibb.co/mcmuvT/solar.jpg)
-
- ## MIT Liscence
+  ![solar](https://preview.ibb.co/cAyUUo/solar.jpg)
