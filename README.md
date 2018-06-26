@@ -1,5 +1,5 @@
 # Enhanced Discord V1.4
-https://preview.ibb.co/kde6aT/ed_logo.jpg
+[ED Logo] (https://preview.ibb.co/kde6aT/ed_logo.jpg)
 
 ### Changelog
 
