@@ -6,6 +6,7 @@ Enhanced discord is a Discord theme meant to improve your discord experience
 Version 2 support Discord's lastests updates
 You can easily change the theme's colors using HEX or RGB
 
+![Preview](https://i.imgur.com/H2DXbDA.png)
 ![Preview1](https://preview.ibb.co/fcQCFT/comparaison1.jpg)
 ![Preview2](https://preview.ibb.co/cV2g9o/comparaison2.jpg)
 ![Preview3](https://preview.ibb.co/eeng9o/comparaison3.jpg)
