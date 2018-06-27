@@ -41,6 +41,11 @@ use the custom css editor in Better discord
       */
     }
 
+### Don't like the white window bar ?
+use the custom css editor in Better discord
+   
+    .typeWindows-1za-n7 {background: var(--dark);}
+
 # Changelog
 
 #### Version 2.1.4
