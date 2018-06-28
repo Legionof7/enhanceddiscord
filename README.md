@@ -14,7 +14,10 @@ You can easily change the theme's colors using HEX or RGB
 
 # Installation
 Simply dowload the color variant you like and put it in your Better Discord Themes folder
+
 `Discord -> Settings -> Themes -> Open themes folder`
+
+Files must be saved as `.theme.css`
 
 ### Customize
 use the custom css editor in Better discord
@@ -45,6 +48,7 @@ use the custom css editor in Better discord
 use the custom css editor in Better discord
    
     .typeWindows-1za-n7 {background: var(--dark);}
+    .wordmark-2iDDfm path {fill: #fff;}
 
 # Changelog
 
