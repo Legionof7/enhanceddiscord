@@ -22,7 +22,7 @@ Files must be saved as `.theme.css`
 ### Customize
 use the custom css editor in Better discord
 
-    .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-   3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
+    .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b, .topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
         background-image: url("YOUR IMAGE URL HERE") !important;
     }
 
